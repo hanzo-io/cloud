@@ -14,6 +14,14 @@
 				</ListItem>
 			</router-link>
 		</div>
+		<template #actions>
+			<router-link
+				class="text-base text-blue-500 hover:text-blue-600"
+				:to="`/security/${server.name}/ssh_session_logs`"
+			>
+				View details →
+			</router-link>
+		</template>
 	</Card>
 </template>
 
