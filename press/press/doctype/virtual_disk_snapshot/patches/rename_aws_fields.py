@@ -8,3 +8,4 @@ from frappe.model.utils.rename_field import rename_field
 def execute():
 	frappe.reload_doctype("Virtual Disk Snapshot")
 	rename_field("Virtual Disk Snapshot", "aws_snapshot_id", "snapshot_id")
+	rename_field("Virtual Disk Snapshot", "aws_volume_id", "volume_id")
