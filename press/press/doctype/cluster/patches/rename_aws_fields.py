@@ -8,3 +8,4 @@ from frappe.model.utils.rename_field import rename_field
 def execute():
 	frappe.reload_doctype("Cluster")
 	rename_field("Cluster", "aws_vpc_id", "vpc_id")
+	rename_field("Cluster", "aws_subnet_id", "subnet_id")
