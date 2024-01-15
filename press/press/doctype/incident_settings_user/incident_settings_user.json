@@ -17,7 +17,8 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "User",
-   "options": "User"
+   "options": "User",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_fmmd",
@@ -29,13 +30,14 @@
    "fieldname": "phone",
    "fieldtype": "Phone",
    "in_list_view": 1,
-   "label": "Phone"
+   "label": "Phone",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-12-14 09:27:34.058904",
+ "modified": "2024-01-11 19:09:25.518329",
  "modified_by": "Administrator",
  "module": "Press",
  "name": "Incident Settings User",
