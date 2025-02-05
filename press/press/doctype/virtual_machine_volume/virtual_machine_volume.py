@@ -16,6 +16,7 @@ class VirtualMachineVolume(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
+
 		device: DF.Data | None
 		iops: DF.Int
 		last_updated_at: DF.Datetime | None
