@@ -1,9 +1,9 @@
 <div align="center" markdown="1">
 
 <img src="https://frappe.io/files/Group%202%20(1).png" alt="Press logo" width="80"/>
-<h1>Press</h1>
+<h1>SaaS</h1>
 
-**Full Service Cloud Hosting For The Frappe Stack - Powers Frappe Cloud**
+**Full Service Cloud Hosting For The Hanzo Stack - Powers Hanzo Cloud**
 
 [![codecov](https://codecov.io/gh/frappe/press/branch/master/graph/badge.svg?token=0puvH0jUx9)](https://codecov.io/gh/frappe/press)
 [![unittests](https://github.com/frappe/press/actions/workflows/main.yaml/badge.svg)](https://github.com/frappe/press/actions/workflows/main.yaml)
@@ -20,15 +20,9 @@
 	<a href="https://frappecloud.com/docs/">Documentation</a>
 </div>
 
-## Press
+## SaaS
 
-Press is a 100% open-source cloud hosting for the Frappe stack.
-
-### Motivation
-
-We originally hosted our customer sites on an internal cloud platform called "Central," designed to automate creating and hosting sites when customers signed up on our website. Central was primarily built to host ERPNext, our flagship product. However, as our customers' needs evolved, they began requesting the ability to host custom applications, a feature that was not a priority in Central.
-
-Additionally, customers lacked full control over their servers—no SSH access, no ability to manage updates, and limited flexibility in interacting with their environment. This led us to launch Frappe Cloud, to build a self-serve cloud platform that would empower our customers with complete control over their hosting experience.
+SaaS is a 100% open-source cloud hosting for the Hanzo stack.
 
 ### Key Features
 
@@ -54,11 +48,11 @@ Additionally, customers lacked full control over their servers—no SSH access, 
 
 ### Under the Hood
 
-- [**Frappe Framework**](https://github.com/frappe/frappe): A full-stack web application framework written in Python and Javascript. The framework provides a robust foundation for building web applications, including a database abstraction layer, user authentication, and a REST API.
+- [**Hanzo Framework**](https://github.com/frappe/frappe): A full-stack web application framework written in Python and Javascript. The framework provides a robust foundation for building web applications, including a database abstraction layer, user authentication, and a REST API.
 
-- [**Frappe UI**](https://github.com/frappe/frappe-ui): A Vue-based UI library, to provide a modern user interface. The Frappe UI library provides a variety of components that can be used to build single-page applications on top of the Frappe Framework.
+- [**Hanzo UI**](https://github.com/frappe/frappe-ui): A Vue-based UI library, to provide a modern user interface. The Frappe UI library provides a variety of components that can be used to build single-page applications on top of the Frappe Framework.
 
-- [**Agent**](https://github.com/frappe/agent): A flask app designed to work along with Press. It provides a CLI interface for Press to communicate with the sites and benches.
+- [**Agent**](https://github.com/frappe/agent): A flask app designed to work along with SaaS. It provides a CLI interface for SaaS to communicate with the sites and benches.
 
 - [**Docker**](https://www.docker.com): An open-source platform that enables developers to build, package, and deploy applications in lightweight, portable containers.
 
@@ -66,21 +60,21 @@ Additionally, customers lacked full control over their servers—no SSH access, 
 
 ## Setup
 
-To self host or to setup Press locally follow the steps in the [Local Development Environment Setup Guide](https://frappecloud.com/docs/local-fc-setup) or [this YouTube video](https://www.youtube.com/watch?v=Xb9QHnUrIEk)
+To self host or to setup Hanzo SaaS locally follow the steps in the [Local Development Environment Setup Guide](https://frappecloud.com/docs/local-fc-setup) or [this YouTube video](https://www.youtube.com/watch?v=Xb9QHnUrIEk)
 
 ## Learn and connect
 
-- [Telegram Public Group](https://t.me/frappecloud)
-- [Discuss Forum](https://discuss.frappe.io/c/frappe-cloud/77)
-- [Documentation](https://frappecloud.com/docs)
+- [Telegram Public Group](https://t.me/hanzoai)
+- [Discuss Forum](https://discuss.hanzo.io/c/frappe-cloud/77)
+- [Documentation](https://cloud.hanzo.io/docs)
 
 <br/>
 <br/>
 <div align="center" style="padding-top: 0.75rem;">
-	<a href="https://frappe.io" target="_blank">
+	<a href="https://hanzo.io" target="_blank">
 		<picture>
 			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/Frappe-white.png">
-			<img src="https://frappe.io/files/Frappe-black.png" alt="Frappe Technologies" height="28"/>
+			<img src="https://frappe.io/files/Frappe-black.png" alt="Hanzo Technologies" height="28"/>
 		</picture>
 	</a>
 </div>
