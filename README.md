@@ -3,7 +3,7 @@
 <img src="https://frappe.io/files/Group%202%20(1).png" alt="Press logo" width="80"/>
 <h1>SaaS</h1>
 
-**Full Service Cloud Hosting For The Hanzo Stack - Powers Hanzo Cloud**
+**Full Service Cloud Hosting For The Hanzo Stack - Powers Hanzo App Cloud**
 
 [![codecov](https://codecov.io/gh/frappe/press/branch/master/graph/badge.svg?token=0puvH0jUx9)](https://codecov.io/gh/frappe/press)
 [![unittests](https://github.com/frappe/press/actions/workflows/main.yaml/badge.svg)](https://github.com/frappe/press/actions/workflows/main.yaml)
